@@ -1,0 +1,14 @@
+{
+    "id": "yearn-v3",
+    "protocol": "Yearn V3",
+    "website": "https://yearn.fi/",
+    "defillama_slug": [
+        "yearn-finance"
+    ],
+    "socials": {
+        "x": "https://x.com/yearnfi"
+    },
+    "github": [
+        "https://github.com/yearn/yearn-vaults-v3"
+    ]
+}
