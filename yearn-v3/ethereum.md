@@ -225,11 +225,23 @@ Signers (9 total, 2 insiders)
 
 | Requirement | Met? | Evidence |
 |-------------|------|----------|
-| Blockchain-based, financial protocol | ✅ | Ethereum smart contracts managing user deposits and yield |
 | Assets NOT in custody by centralized entity | ✅ | Assets held in smart contracts and withdrawable by depositors at any time |
 | Public documentation exists | ✅ | docs.yearn.fi  |
 | Source-available codebase | ✅ | github.com/yearn/yearn-vaults-v3 |
 | Verified contracts | ✅ | Check each contract on Etherscan |
+
+## Stage 1 Qualification Check
+
+| Requirement | Met? | Evidence |
+|-------------|------|----------|
+| At least a "Medium" risk score for Chain, Autonomy, Accessibility | ✅ | Chain score is Low, Autonomy and Accessibility are Medium  |
+| IF Exit Window receives "High" risk, THEN a Security Council must be in place with ownership of or veto over permissions | ✅ | Exit Window is High, but ychad.eth (6/9 multisig) qualifies as Security Council and has ALL vault permissions via DADDY position |
+
+## Stage 2 Qualification Check
+
+| Requirement | Met? | Evidence |
+|-------------|------|----------|
+| At least "Low" risk score for Chain, Autonomy, Exit Window, Accessibility | ❌ | Only Chain score is Low |
 
 ## Sources & References
 - DeFiScan Framework: https://www.defiscan.info/framework
